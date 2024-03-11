@@ -1,0 +1,40 @@
+main {
+  max-width: 600px;
+  margin: 8rem auto;
+  padding: 2px;
+  color: var(--site-primary-color);
+}
+
+.form__card {
+  background-color: #db7b4e0c;
+  padding: 4rem 6rem;
+  border-radius: 2rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input,
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--site-primary-color);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: var(--site-secondary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}

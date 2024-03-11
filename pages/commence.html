@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/commence.css">
+    <link rel="icon" type="image/x-icon" href="../assets/Icons/icons8-plane-32.png">
+    <script src="https://kit.fontawesome.com/c5bbcf3456.js" crossorigin="anonymous"></script>
+    <title>Get Started - Travel Site</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__logo"><a href="../index.html">Travel Site</a></h1>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="../pages/hawaii.html" class="nav__link nav__link--active">Hawaii</a></li>
+                <li class="nav__item"><a href="../pages/iceland.html" class="nav__link">Iceland</a></li>
+                <li class="nav__item"><a href="../pages/greece.html" class="nav__link">Greece</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="form__main">
+        <div class="form__card">
+            <h1>Get Started</h1>
+            <form>
+                <label for="destination">Select a destination:</label>
+                <select id="destination" name="destination">
+                    <option value="hawaii">Hawaii</option>
+                    <option value="iceland">Iceland</option>
+                    <option value="greece">Greece</option>
+                </select>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <h3 class="footer__h3">Contact</h3>
+            <div class="footer__contact">
+                <h4 class="footer__subtitle">EMAIL</h4>
+                <p>info@travelsite.com</p>
+            </div>
+        </div>
+        <div>
+            <h3 class="footer__h3">Hours</h3>
+            <div class="footer__hours">
+                <div>
+                    <h4 class="footer__subtitle">Monday - Friday</h4>
+                    <p class="footer__p">9:00 AM - 5:00 PM</p>
+                </div>
+                <div>
+                    <h4 class="footer__subtitle">Saturday</h4>
+                    <p class="footer__p">10:00 AM - 4:00 PM</p>
+                </div>
+                <div>
+                    <h4 class="footer__subtitle">Sunday</h4>
+                    <p class="footer__p">Closed</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3 class="footer__h3">Social</h3>
+            <a href="https://www.instagram.com/" class="social-icon" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" class="social-icon" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/" class="social-icon" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
