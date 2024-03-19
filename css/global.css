@@ -75,6 +75,7 @@ p {
   margin-top: 1rem;
   display: flex;
   align-items: center;
+  margin: auto 0;
 }
 
 .nav__list {
